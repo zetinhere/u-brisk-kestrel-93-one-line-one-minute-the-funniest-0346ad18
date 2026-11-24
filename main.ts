@@ -26,5 +26,7 @@ if (length < 1 || length > MAX_LENGTH) {
   throw new Error(`entry line must be 1–${MAX_LENGTH} characters, got ${length}`);
 }
 
+// The file holds exactly the line, with no trailing newline: the gate
+// counts the entry's characters, so nothing extra may follow it.
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");

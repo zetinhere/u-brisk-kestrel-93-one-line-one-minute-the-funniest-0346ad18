@@ -3,3 +3,6 @@ u-brisk-kestrel-93-one-line-one-minute-the-funniest-0346ad18-kit/
 kit.tar.gz
 # local run output
 /output/
+# transcript bundles and submission artefacts (never committed)
+*.tar.gz
+transcripts.tar.gz
