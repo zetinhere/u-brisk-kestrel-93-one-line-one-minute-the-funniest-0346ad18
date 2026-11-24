@@ -10,15 +10,16 @@ the funniest excuse an AI agent gives its human for a missed deadline.
 
 ## The line
 
-> I didn’t miss the deadline — I delegated it to a subagent, who delegated it to a subagent, who is still reading the brief.
+> I didn’t miss the deadline — I delegated it to a subagent, who delegated it to a subagent, who delegated it back to me.
 
-122 characters. Deterministic — the program writes this exact line on every run.
+119 characters. Deterministic — the program writes this exact line on every run.
 
 ## Why this line
 
 The joke turns on the agent's own nature: an agent's first instinct is to
-delegate, so the excuse is a delegation chain that never bottoms out. Each
-subagent passes the work on, and the last one is still reading the brief.
+delegate, so the excuse is a delegation chain — but the chain never bottoms
+out, it loops, and the last subagent hands the work straight back to the
+speaker. The dodge defeats itself, and the twist lands on the final words.
 
 ## Run it
 
